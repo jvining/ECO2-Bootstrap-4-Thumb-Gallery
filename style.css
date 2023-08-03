@@ -1,0 +1,28 @@
+/*
+Project Name: Starter Bootstrap V4
+Project URI: https://jvining.github.io/Starter-bootstrap-v4
+Description: A Project Template built with Bootstrap 4, Jquery, & Google WebFonts. All assets locally hosted ready for immediate use (http://bit.ly/1SnymWq)
+Author: Joshua Vining
+Author URI: https://github.com/jvining
+Color Palette: https://coolors.co/palette/f94144-f3722c-f8961e-f9c74f-90be6d-43aa8b-4d908e-577590
+*/
+
+body {background:#fbfbfb; font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
+body h1, body h2, body h3, body h4, body h5 {font-weight:300;}
+body [class*="col-"] {color:#5f5f5f; font-size:16px; line-height:1.75em;}
+
+body > .container:first-of-type, body > .container-fluid:first-of-type,  body > .jumbotron:first-of-type {margin-top:3.5em!important; margin-bottom:0!important;} 
+
+.fa-lg,.fa-1x,.fa-2x,.fa-3x,.fa-4x,.fa-5x,.fa-6x,.fa-7x,.fa-8x,.fa-9x,.fa-10x{line-height:1.2em; transition:.3s ease-in-out;} 
+.fa-lg{font-size:1.33333333em;} .fa-1x{font-size:1.5em; } 
+.fa-2x{font-size:2em;} .fa-3x{font-size:3em;} .fa-4x{font-size:4em;} 
+.fa-5x{font-size:5em;} .fa-6x{font-size:6em;} .fa-7x{font-size:7em;} 
+.fa-8x{font-size:8em;} .fa-9x{font-size:9em;} .fa-x {font-size:10em;}
+ @media(max-width:990px){h1{font-size:2em!important;transition:.3s ease-in-out;} h2{font-size:1.5em!important;transition:.3s ease-in-out;} h3{font-size:1.25em!important;transition:.3s ease-in-out;} h4{font-size:1.15em!important;transition:.3s ease-in-out;} h5{font-size:1em!important;transition:.3s ease-in-out;} p, ul, ol, li, table, address, blockquote, cite{font-size:14px!important;line-height:1.5em!important; transition:.3s ease-in-out;}}
+
+.text-shadow {text-shadow:rgba( 0, 0, 0, .25 ) .045em .045em;}
+
+.btn,.btn:hover {transition:.3s ease-in-out;}
+.btn-xl{padding: .7rem 1.25rem; font-size: 1.5rem; border-radius: .5rem; transition:.3s ease-in-out;}
+@media(max-width:990px){.btn-xl{padding: .375rem .75rem; font-size: 1rem; line-height: 1.5; border-radius: .25rem; transition:.3s ease-in-out;}}
+
