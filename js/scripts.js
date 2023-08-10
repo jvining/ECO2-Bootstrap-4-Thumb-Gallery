@@ -19,6 +19,7 @@ $(document).ready(function(){
 	$("#thumbCarousel .thumb").on("click", function(){
 		$(this).addClass("active");
 		$(this).siblings().removeClass("active");
+		
 	});
 	
 	//When the carousel slides, auto update
@@ -42,4 +43,7 @@ $(document).ready(function(){
 
 	  });
 	});
+	
 });
+
+ 
